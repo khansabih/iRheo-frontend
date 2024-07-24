@@ -1,0 +1,43 @@
+.signup-container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form-heading{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--deep-blue);
+}
+.signup-form-subheading{
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--steel-grey);
+}
+
+.signup-form-sub-subheading{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: var(--text);
+}
+
+.signup-logo-container{
+    height: 75px;
+    width: 150px;
+}
+
+.signup-logo-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

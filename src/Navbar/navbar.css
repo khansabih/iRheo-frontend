@@ -1,0 +1,132 @@
+.navbar{
+    height: auto;
+    width: 100%;
+    padding: 1%;
+    background-color:var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-logo-and-menu{
+    height: auto;
+    width: 35%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-vertical-spacer{
+    height: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text);
+}
+.company-logo-container{
+    height: 10px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.company-logo-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    aspect-ratio: 2/3;
+}
+
+.navbar-menu-items{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar-menu-btn{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--normal-text);
+    font-size: 0.95rem;
+    font-family: "Figtree", sans-serif;
+    font-weight:600;
+    cursor: pointer;
+    transition: font-size 0.3s ease-in-out;
+}
+.navbar-menu-btn:hover{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--normal-text);
+}
+
+.navbar-cta-area{
+    height: 25px;
+    width: 35%;
+    gap: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar-text{
+    font-size: 0.9rem;
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    color: var(--normal-text);
+    padding: 0;
+    margin: 0;
+}
+.navbar-cta{
+    height: 35px;
+    width: auto;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-cta);
+    border: none;
+    outline: none;
+    border-radius: 25px 25px 25px 25px;
+    color: var(--bg-color-1);
+    font-size: 0.8rem;
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.navbar-cta:hover{
+    box-shadow: none;
+}
+
+.navbar-login-cta{
+    height: auto;
+    width: auto;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 5px 5px 5px 5px;
+    color: var(--primary-cta);
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}

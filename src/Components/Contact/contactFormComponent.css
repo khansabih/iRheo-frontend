@@ -1,0 +1,123 @@
+.contact-form-container{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form-heading-area{
+    height: auto;
+    width: 100%;
+    margin-left: 7px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.contact-form-heading{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text);
+    padding: 0;
+    margin: 0;
+    margin-bottom: 7px;
+    text-align: left;
+}
+.contact-form-subheading{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--steel-grey);
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.contact-form-name-div{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-form-input-div{
+    height: auto;
+    flex: 1;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.contact-form-input{
+    height: 45px;
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+    background-color: transparent;
+    padding: 1%;
+    padding-left: 2%;
+    outline: none;
+    border: solid var(--light-grey);
+}
+.contact-form-input::placeholder{
+    color: var(--steel-grey);
+    font-style: italic;
+}
+
+.contact-form-contacts-div{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-form-message-div{
+    height: auto;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-message-area{
+    width: 98%;
+    min-height: 50px;
+    padding: 1%;
+    background-color: transparent;
+    resize: none;
+    overflow: hidden;
+    border-radius: 5px 5px 5px 5px;
+    border: solid var(--light-grey);
+}
+
+.contact-message-area::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: var(--steel-grey);
+}
+
+.contact-form-cta{
+    /* margin: 10px; */
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 45px;
+    width: 98%;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    outline: none;
+    background-color: var(--deep-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f8f8f8;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.contact-form-cta:hover{
+    box-shadow: none;
+}

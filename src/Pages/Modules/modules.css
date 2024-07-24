@@ -1,0 +1,26 @@
+.modules-container{
+    min-height: 100vh;
+    width: 100%;
+    padding: 2%;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.modules-heading{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Figtree", sans-serif;
+    color: var(--normal-text);
+}
+
+.all-modules-list-container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,30 @@
+.homepage-container{
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-component-1{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ad-component-2{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-main-content-area{
+    height: 100%;
+    flex: 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

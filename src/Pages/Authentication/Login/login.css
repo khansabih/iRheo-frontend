@@ -1,0 +1,43 @@
+.login-container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form-heading{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--deep-blue);
+}
+.login-form-subheading{
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--steel-grey);
+}
+
+.login-form-sub-subheading{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: var(--text);
+}
+
+.company-logo-container{
+    height: 75px;
+    width: 150px;
+}
+
+.company-logo-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

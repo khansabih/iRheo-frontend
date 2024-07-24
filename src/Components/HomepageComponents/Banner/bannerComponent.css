@@ -1,0 +1,111 @@
+.main-banner-area{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.banner-bg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    filter: blur(5px);
+}
+.main-banner-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(245,245,245,1);
+    mix-blend-mode: overlay;
+}
+.main-banner-content{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-heading{
+    font-size: 4rem;
+    font-family: "Figtree",sans-serif;
+    font-weight: 700;
+    color: var(--normal-text);
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+.banner-image{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-banner-logo{
+    height: auto;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    filter: none;
+}
+
+.banner-tagline{
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: "Figtree",sans-serif;
+    color: var(--normal-text);
+}
+
+.banner-cta{
+    margin: 7px;
+    height: 45px;
+    width: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 5px 5px 5px 5px;
+    background-color: var(--primary-cta);
+    color: var(--bg-color);
+    font-size: 1rem;
+    font-family: "Figtree", sans-serif;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    transition: 0.3s font-size ease-in-out;
+}
+.banner-cta:hover{
+    box-shadow: none;
+    font-size: 1.1rem;
+}
+
+.banner-secondary-cta{
+    margin: 7px;
+    height: 45px;
+    width: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 5px 5px 5px 5px;
+    color: var(--secondary-cta-text);
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: 0.3s font-size ease-in-out;
+}
+.banner-secondary-cta:hover{
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}

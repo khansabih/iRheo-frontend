@@ -1,0 +1,14 @@
+.para-bool-input-div{
+    height: 35px;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.para-bool-text{
+    font-weight: 500;
+    color: var(--text);
+    padding: 0;
+    margin: 0;
+}

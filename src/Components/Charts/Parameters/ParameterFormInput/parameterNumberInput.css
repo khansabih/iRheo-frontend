@@ -1,0 +1,26 @@
+.para-num-div{
+    height: 35px;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid var(--steel-grey);
+    border-width: 1px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.parameter-form-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.parameter-form-input::-webkit-outer-spin-button,
+.parameter-form-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

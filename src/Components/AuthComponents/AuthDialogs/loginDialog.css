@@ -1,0 +1,35 @@
+.auth-dialog-heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--deep-blue);
+}
+
+.auth-dialog-subheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-dialog-subheading p{
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--deep-blue);
+    margin: 0;
+    padding: 0;
+}
+
+.auth-dialog-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-dialog-secondary-cta{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+}

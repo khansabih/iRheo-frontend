@@ -1,0 +1,97 @@
+.parameter-form-container{
+    height: auto;
+    width: 250px;
+    padding: 1%;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.parameter-heading{
+    font-size: 1.5rem;
+    color: var(--text);
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.para-input-container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.para-input-container.dialog{
+    width: 35%;
+}
+.para-label{
+    font-size: 0.95rem;
+    color: var(--text);
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.more-options-div{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para-options-text{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--steel-grey);
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.para-options-text:hover{
+    text-decoration: underline;
+}
+
+.para-radio-container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.custom-radio-container{
+    height: auto;
+    width: auto;
+    display: flex;
+    gap: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.custom-radio-box{
+    height: 20px;
+    width: 20px;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid var(--deep-blue);
+    border-radius: 50% 50% 50% 50%;
+    border-width: 2.5px;
+    background-color: transparent;
+}
+.custom-radio-box-inside{
+    height: 12.5px;
+    width: 12.5px;
+    border-radius: 50% 50% 50% 50%;
+    background-color: var(--deep-blue);
+}
